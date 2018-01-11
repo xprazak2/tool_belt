@@ -1,0 +1,40 @@
+---
+:project: foreman
+:prior_releases:
+  :1.16.0:
+    :redmine_release_id: 240
+  :1.16.1:
+    :redmine_release_id: 332
+:releases:
+  :1.17.0:
+    :redmine_release_id: 296
+:repos:
+  :foreman:
+    :main: true
+    :branch: 1.17-stable
+    :repo: https://github.com/theforeman/foreman.git
+  :smart-proxy:
+    :main: true
+    :branch: 1.17-stable
+    :repo: https://github.com/theforeman/smart-proxy.git
+  :foreman-selinux:
+    :main: true
+    :branch: 1.17-stable
+    :repo: https://github.com/theforeman/foreman-selinux.git
+  :foreman-installer:
+    :main: true
+    :branch: 1.17-stable
+    :repo: https://github.com/theforeman/foreman-installer.git
+  :foreman-packaging-deb:
+    :main: true
+    :branch: deb/1.17
+    :repo: https://github.com/theforeman/foreman-packaging.git
+  :foreman-packaging-rpm:
+    :main: true
+    :branch: rpm/1.17
+    :repo: https://github.com/theforeman/foreman-packaging.git
+  :community-templates:
+    :main: true
+    :branch: 1.17-stable
+    :repo: https://github.com/theforeman/community-templates.git
+
